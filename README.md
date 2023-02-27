@@ -29,3 +29,14 @@ lua/
 ├── ui/ # Folder for configuring UI elements and appearance settings.
 └── settings/ # Folder for general settings that don't fit into any of the other categories.
 ```
+
+## #3
+
+```txt
+.
+├── settings: contains various settings files, such as options.lua for configuring Neovim options and theme.lua for setting up the color scheme.
+├── plugins: contains configuration files for various plugins, each in their own subdirectory. For example, plugins/nvim-tree.lua for configuring the NvimTree plugin and plugins/lspconfig.lua for configuring the LSP server.
+├── mappings: contains mapping configuration files, such as keymappings.lua and pluginmappings.lua.
+├── utils: contains utility functions that can be used throughout the configuration, such as helpers.lua for commonly used functions or autocmds.lua for defining autocommands.
+└── modules: contains various Lua modules that can be used throughout the configuration, such as statusline.lua for defining a custom statusline or completion.lua for defining custom completion functions.
+```
